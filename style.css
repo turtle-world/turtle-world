@@ -264,6 +264,7 @@ div.a {
   margin: auto;
 }
 
+
 @media only screen and (max-width: 60em) {
   div.a {
     font-size: 20px;
@@ -519,4 +520,5 @@ input.MyButton:hover {
   #lab_social_icon_footer a {
     color: white;
     margin: 5px;
+    font-size: 18px;
   }
