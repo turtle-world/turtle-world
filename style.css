@@ -86,11 +86,11 @@ ul > li:active > ul > li, ul > li:hover > ul > li {
 }
 
 .home:hover, .nav-link:hover {
-    color:grey;
+    color:#00203FFF;
 }
 
 .a > .nav-link {
-  color: grey;
+  color: #00203FFF;
 }
 
 img.poster {
