@@ -1,3 +1,2 @@
-# turtle-world
-
-Website made for Final Project in LMC 3314 - Technologies of Representation
+# Personal Portfolio Website
+Visit https://fernanda-moreno.github.io to view my resume and portfolio in coding, design, videography, and photography!

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Libre+Franklin|Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
 
@@ -30,8 +31,8 @@
 }
 
 #AboutMe p {
-  margin-left: auto;
-  margin-right: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
   display: inline-block;
   text-align: left;
   font-size: 25px;
@@ -193,6 +194,7 @@ img.mySlides {
     color: #ccc;
     padding: 10px 0;
     height: 150px;
+    font-size: 14px;
 }
 
 /* Add Animation - Zoom in the Modal */
@@ -259,6 +261,16 @@ div.a {
   display: inline-block;
 }
 
+.b {
+  font-size: 25px;
+  margin-right: auto;
+  margin-left: 100px;
+  float: center;
+  text-align: left;
+  max-width: 100%;
+  /* display: inline-block; */
+}
+
 #container {
   width: 600px;
   margin: auto;
@@ -266,8 +278,8 @@ div.a {
 
 
 @media only screen and (max-width: 60em) {
-  div.a {
-    font-size: 20px;
+  div.a, div.b {
+    font-size: 10px;
     margin: auto;
     margin-left: 10px;
     margin-right: 10px;
@@ -291,6 +303,7 @@ div.a {
     margin-left: 20px;
     margin-right: 10px;
     margin-top: 0;
+    font-size: 18px;
     /* float: none; */
   }
 
@@ -360,7 +373,7 @@ div.a {
 @media only screen and (max-width: 60em) {
   #AboutMe h1, .tabcontent {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 50px;
@@ -386,18 +399,21 @@ div.b {
   font-size: 20px;
 }
 h1 {
-  font-family: 'Lobster Two', cursive;
+  /* font-family: 'Lobster Two', cursive; */
   /* font-family: 'Slabo 27px'; */
+  /* font-family: 'Calistoga', cursive; */
+  font-family: 'Roboto Slab', serif;
   color: black;
   font-size: 65px;
 }
 h2 {
-    font-family: 'Slabo 27px', serif;
-    font-size: 40px;
+  font-family: 'Calistoga', cursive;
+  font-family: 'Roboto Slab', serif;    font-size: 40px;
 }
 
 h3{
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Calistoga', cursive;
+  font-family: 'Roboto Slab', serif;
   font-size: 30px;
 }
 
@@ -411,6 +427,12 @@ h3{
     width: 300px;
 }
 
+.turtle {
+  border-radius: 50%;
+  max-width: 100%;
+  vertical-align: top;
+
+}
 #stars {
     text-align: left;
     font-size: 150%;
