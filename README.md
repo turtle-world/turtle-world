@@ -1,2 +1,3 @@
-# Personal Portfolio Website
-Visit https://fernanda-moreno.github.io to view my resume and portfolio in coding, design, videography, and photography!
+# Turtle World
+
+Visit https://turtle-world.github.io to view the story and process for our final puppet project for LMC 3314 - Technologies of Representation.
